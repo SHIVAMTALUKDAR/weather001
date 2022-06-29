@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    
+    <div class="weather-app">
+
+        <div class="container">
+
+            <h2 class="brand">WEATHER APP</h2>
+
+            <div>
+
+                <h1 class="temp">16&#176;</h1>
+
+                <div class="city-time">
+
+                    <h1 class="name">London</h1>
+
+                    <small>
+
+                        <span class="time">06:09</span>
+                        <span class="date">Monday Sep 19</span>
+
+                    </small>
+
+                </div>
+
+                <div class="weather">
+                    <img src="./icons/day/113.png" alt="icon" class="icon" width="50" height="50">
+                    <span class="condition">Cloudy</span>
+                </div>
+
+            </div>    
+
+        </div>
+
+            <div class="panel">
+
+                <form id="locationInput">
+
+                    <input type="text" class="search" placeholder="Search Location...">
+
+                    <button type="submit" class="submit"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAeRJREFUSEvllu0tRFEQht+tABWgAlSAClABOqACVIAKUMHqABXQASpABeSROTI593wuN/vDSTab7J25z8y8M3N2ojmdyZy46gFvSVqTtCjpXdKTpIdZA6+BVySdSDrIAAjgVtKZpJeeIErgI0nnHS/D/rLVPge+lrTvXnJjmd1bmSk3pd+N7PA7bIGnwD7TV3s5eubOugW1bAbHki5q8BiMps/mBJSXoiOHLHckYRMayz/jtwBfrWkeg32JNwwAlCrQZMDDAXrqdCXIR3uINLmG/DaJwZ8Zx1hzX0lf2mBHUEulcnswzXJnxnumm/dFN5qL8aGpgCyYFFSHceL3qTltm32S78G+qYg26JcL3ENCoEjx1tJkHoxe6JiSIAfHh0Ml+HCCXCyV8Hzg/5uMU8H4jFNy/fj0aFzqlfDMl99PRTFjHqIrDVMdh0wUvvuL90DrHLdk6+e4qG+qifzmYjwoV627eQ/asjzw/7Dvol9tVwOnSWq7mtkFymmSqfV2QjsWBxc/mZDhpi2M1GrkhsIne/7qPqa8BOav0iK85R8IS4AxodtTh0ZinVIJsr9yRll4DexB7HI6lzKjOfqntG+C94BbRirYVOFjgQnAwwclHxMc4HwPOnxs8Ezj1KNpt+3/y/gLRZhwH/pUPqMAAAAASUVORK5CYII=" style="width:40%;"/></button>
+
+                </form>
+
+                <ul class="cities">
+
+                    <li class="city">New York</li>
+                    <li class="city">California</li>
+                    <li class="city">Paris</li>
+                    <li class="city">Tokyo</li>
+
+                </ul>
+
+                <ul class="details">
+
+                    <h4>Weather Details</h4>
+
+                    <li>
+
+                        <span>Cloudy</span>
+                        <span class="cloud">89%</span>
+
+                    </li>
+
+                    <li>
+
+                        <span>Humanity</span>
+                        <span class="humidity">64%</span>
+
+                    </li>
+
+                    <li>
+
+                        <span>Wind</span>
+                        <span class="wind">8km/h</span>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+    </div>
+
+
+    <script src="weather.js"></script>
+
+</body>
+</html>
